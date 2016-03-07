@@ -4,7 +4,7 @@ namespace Mosaic\Tests\CommandBus;
 
 use InvalidArgumentException;
 use Mosaic\CommandBus\Marshal;
-use Mosaic\Support\ArrayObject;
+use Mosaic\Common\ArrayObject;
 use PHPUnit_Framework_TestCase;
 
 class MarshalTest extends PHPUnit_Framework_TestCase

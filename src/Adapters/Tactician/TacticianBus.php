@@ -7,7 +7,7 @@ use League\Tactician\CommandBus as TacticianCommandBus;
 use Mosaic\CommandBus\AbstractBus;
 use Mosaic\CommandBus\CommandBus;
 use Mosaic\Container\Container;
-use Mosaic\Support\ArrayObject;
+use Mosaic\Common\ArrayObject;
 
 class TacticianBus extends AbstractBus implements CommandBus
 {

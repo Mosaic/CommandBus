@@ -19,7 +19,7 @@
   ],
   "require": {
     "php": ">=7.0.0",
-    "mosaic/support": "dev-master",
+    "mosaic/common": "dev-master",
     "mosaic/container": "dev-master"
   },
   "require-dev": {
@@ -47,7 +47,7 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:Mosaic/Support.git"
+      "url": "git@github.com:Mosaic/Common.git"
     }
   ]
 }

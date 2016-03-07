@@ -10,7 +10,7 @@ use Mockery;
 use Mockery\Mock;
 use Mosaic\CommandBus\Adapters\Tactician\HandlerLocator;
 use Mosaic\CommandBus\Adapters\Tactician\TacticianBus;
-use Mosaic\Support\ArrayObject;
+use Mosaic\Common\ArrayObject;
 use PHPUnit_Framework_TestCase;
 
 class TacticianBusTest extends PHPUnit_Framework_TestCase
