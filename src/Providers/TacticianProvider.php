@@ -1,6 +1,6 @@
 <?php
 
-namespace Mosaic\CommandBus\Definitions;
+namespace Mosaic\CommandBus\Providers;
 
 use Interop\Container\Definition\DefinitionProviderInterface;
 use League\Tactician\Handler\CommandHandlerMiddleware;
@@ -11,7 +11,7 @@ use Mosaic\CommandBus\Adapters\Tactician\TacticianBus;
 use Mosaic\CommandBus\CommandBus;
 use Mosaic\Container\Container;
 
-class TacticianDefinition implements DefinitionProviderInterface
+class TacticianProvider implements DefinitionProviderInterface
 {
     /**
      * @var Container
