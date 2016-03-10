@@ -1,17 +1,17 @@
 <?php
 
-namespace Mosaic\CommandBus\Tests\Definitions;
+namespace Mosaic\CommandBus\Tests\Providers;
 
 use Interop\Container\Definition\DefinitionProviderInterface;
 use Mosaic\CommandBus\CommandBus;
-use Mosaic\CommandBus\Definitions\TacticianDefinition;
+use Mosaic\CommandBus\Providers\TacticianProvider;
 use Mosaic\Container\Container;
 
-class TacticianDefinitionTest extends \PHPUnit_Framework_TestCase
+class TacticianProviderTest extends \PHPUnit_Framework_TestCase
 {
     public function getDefinition() : DefinitionProviderInterface
     {
-        return new TacticianDefinition(\Mockery::mock(Container::class));
+        return new TacticianProvider(\Mockery::mock(Container::class));
     }
 
     public function shouldDefine() : array

@@ -6,8 +6,8 @@ use ArrayAccess;
 use League\Tactician\CommandBus as TacticianCommandBus;
 use Mosaic\CommandBus\AbstractBus;
 use Mosaic\CommandBus\CommandBus;
-use Mosaic\Container\Container;
 use Mosaic\Common\ArrayObject;
+use Mosaic\Container\Container;
 
 class TacticianBus extends AbstractBus implements CommandBus
 {
