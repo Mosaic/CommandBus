@@ -22,7 +22,7 @@ class Marshal
         $reflection = new ReflectionClass($command);
 
         if ($constructor = $reflection->getConstructor()) {
-            $injected = array_map(function ($parameter) use ($command, $input, $extra) {
+            $injected = array_map(function ($parameter) use ($input, $extra) {
                 return $this->getParameterValueForCommand($input, $parameter, $extra);
             }, $constructor->getParameters());
         }
